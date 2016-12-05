@@ -1,4 +1,4 @@
-/*
+
 "use strict";
 
 
@@ -102,10 +102,10 @@ class Component extends App{
 
 let component = new Component();
 component.ukayLayout();
-*/
 
 
 
+/*
 
 "use strict";
 
@@ -1019,8 +1019,7 @@ class App{
 	showLandingPage(){
 		$('#landingpage').show();
 		$('#createpage').hide();
-		$('#readpage').hide();
-		$('#updatedeletepage').hide();
+		$('#readpage').hide();		$('#updatedeletepage').hide();
 	}	
 
 	showMovieList(){
